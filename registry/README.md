@@ -133,4 +133,67 @@ service.yaml
 
 ### Docker Engine 1.9 or Docker Engine 1.11
 
-* confiy.yml
+* registry config yaml file
+
+config.yml
+
+	version: 0.1
+	log:
+	  level: debug
+	  formatter: text
+	  fields:
+	    service: registry
+	  hooks:
+	    - type: mail
+	      disabled: true
+	      levels:
+	        - panic
+	      options:
+	        smtp:
+	          addr: mail.example.com:25
+	          username: mailuser
+	          password: password
+	          insecure: true
+	        from: sender@example.com
+	        to:
+	          - errors@example.com
+	storage:
+	  swift:
+	    username: admin
+	    password: qy_dcos
+	    authurl: http://10.0.0.40:5000/v2.0
+	    tenant: admin
+	    insecureskipverify: true
+	    container: docker-registry
+	    rootdirectory: /swift/object/name/prefix
+	  delete:
+	    enabled: true
+	  redirect:
+	    disable: false
+	  cache:
+	    blobdescriptor: redis
+	auth:
+	  token:
+	    realm: your auth url 
+	    service: docker-registry
+	    issuer: AuthService
+	    rootcertbundle: /ssl/qy-auth-server.crt
+	http:
+	  addr: :5000
+	  secret: admin
+	  host: your host
+	  tls:
+	    certificate: /ssl/qy-auth-server.crt
+	    key: /ssl/qy.key
+	redis:
+	  addr: localhost:6379
+	  pool:
+	      maxidle: 16
+	      maxactive: 64
+	      idletimeout: 300s
+	health:
+	  storagedriver:
+	    enabled: true
+	    interval: 10s
+	    threshold: 3
+
