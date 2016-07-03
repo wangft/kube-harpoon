@@ -5,7 +5,7 @@ Project kube-harpoon is an enterprise-class kubernetes cluster solution for real
 ## Features
 
 ### Docker Registry
-The content can be found in [registry] sub-directory
+The content can be found in [registry](/registry) sub-directory
 
 ### High available Kubernetes cluster
 _TBC_
