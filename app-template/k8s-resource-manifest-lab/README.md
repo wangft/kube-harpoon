@@ -1,12 +1,12 @@
-# Category
+# Introduction
 
 ## CI/CD
 
 ### Gogits gogs
 
-Kubernetes manifests can be fetched in [submodule: gogs@...](/app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker)
+Kubernetes manifests can be fetched from directory **kubernetes-manifests** of [gogs@... submodule](/app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker)
 
-* Submoudle
+Submoudle
 
     localhost:kube-harpoon fanhongling$ git submodule add https://github.com/stackdocker/gogs app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/gogs
 

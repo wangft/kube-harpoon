@@ -4,7 +4,7 @@ The app-template directory include:
 
 * [Rancher Catalog](#rancher-catalog)
 
-* [Kuberentes native manifests lab](#kubernetes-resource-manifest-lab)
+* [Kuberentes resource manifest lab](#kubernetes-resource-manifest-lab)
 
 ## Rancher Catalog
 
@@ -22,15 +22,15 @@ _to be continued_
 
 * Gogits gogs
 
-__tag__: git, SCM, web
+_tag_: git, SCM, web
 
 * Sonatype Nexus
 
-__tag__: java, maven, CI, web
+_tag_: java, maven, CI, web
 
 * Jenkins
 
-__tag__: java, maven, CI/CD, web
+_tag_: java, maven, CI/CD, web
 
 ### Clustering
 
