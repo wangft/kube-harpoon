@@ -4,6 +4,13 @@
 
 ### Gogits gogs
 
-The original source is https://github.com/gogits/gogs
+Kubernetes manifests can be fetched in [submodule: gogs@...](/app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker)
 
-[Kubernetes manifests for Gogs](/app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/gogs/tree/master/kubernetes-manifests)
+* Submoudle
+
+    localhost:kube-harpoon fanhongling$ git submodule add https://github.com/stackdocker/gogs app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/gogs
+
+* Note
+
+The original *gogs* is https://github.com/gogits/gogs
+

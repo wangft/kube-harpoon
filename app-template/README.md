@@ -4,13 +4,17 @@ The app-template directory include:
 
 * [Rancher Catalog](#rancher-catalog)
 
-* [Kuberentes native manifests lab](#kubernetes-native-manifests-lab)
+* [Kuberentes native manifests lab](#kubernetes-resource-manifest-lab)
 
 ## Rancher Catalog
 
 ### REST service
 
+_to be continued_
+
 ### Catalog
+
+_to be continued_
 
 ## [Kubernetes resource manifest lab](/app-template/k8s-resource-manifest-lab)
 
@@ -18,18 +22,16 @@ The app-template directory include:
 
 * Gogits gogs
 
-tag: git, SCM, web
-
-submoudle: 
-
-    localhost:kube-harpoon fanhongling$ git submodule add https://github.com/stackdocker/gogs app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/gogs
+__tag__: git, SCM, web
 
 * Sonatype Nexus
 
-tag: java, maven, CI, web
+__tag__: java, maven, CI, web
 
 * Jenkins
 
-tag: java, maven, CI/CD, web
+__tag__: java, maven, CI/CD, web
 
 ### Clustering
+
+_to be continued_
