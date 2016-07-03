@@ -5,7 +5,13 @@ Project kube-harpoon is an enterprise-class kubernetes cluster solution for real
 ## Features
 
 ### Docker Registry
+The content can be found in [registry] sub-directory
+
 ### High available Kubernetes cluster
+_TBC_
+
 ### [Kubernetes application deployment template](/app-templates)
 The directory includes various open catalog technology, such as [Kubernetes charts](https://github.com/kubernetes/charts), [Rancher community catalog](https://github.com/rancher/community-catalog), [Openshift template](https://github.com/openshift/origin/tree/master/pkg/template), and so on  
+
 ### Multi-tenant Kuberentes cluster
+_TBC_
