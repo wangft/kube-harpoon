@@ -1,3 +1,9 @@
 [submodule "app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/gogs"]
 	path = app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/gogs
 	url = https://github.com/stackdocker/gogs
+[submodule "app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/mysql_replication_kubernetes"]
+	path = app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/mysql_replication_kubernetes
+	url = https://github.com/stackdocker/mysql_replication_kubernetes
+[submodule "app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/redis-cluster"]
+	path = app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/redis-cluster
+	url = https://github.com/stackdocker/redis-cluster
