@@ -2,15 +2,15 @@
 
 The app-template directory include:
 
+* [Kuberentes resource manifest lab](#kubernetes-resource-manifest-lab)
+
 * Catalog
  
-+ [Rancher Catalog](./catalog/lib/github.com/rancher)
-
-+ [Kube Charts](./catalog/lib/github.com/kubernetes)
-
-+ [Deis Charts](./catalog/lib/github.com/deis)
-
-* [Kuberentes resource manifest lab](#kubernetes-resource-manifest-lab)
+>+ [Rancher Catalog](./catalog/lib/github.com/rancher)
+>
+>+ [Kube Charts](./catalog/lib/github.com/kubernetes)
+>
+>+ [Deis Charts](./catalog/lib/github.com/deis)
 
 ## [Kubernetes resource manifest lab](/app-template/k8s-resource-manifest-lab)
 
