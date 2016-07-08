@@ -26,7 +26,11 @@ _tag_: git, SCM, web
 
 * Sonatype Nexus
 
-_tag_: java, maven, CI, web
+[codebase](https://github.com/sonatype/nexus-public)
+
+_tag_: java, maven, web
+
+_book_: [Repository Management with Nexus](https://books.sonatype.com/nexus-book/3.0/reference/index.html)
 
 * Jenkins
 

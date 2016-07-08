@@ -7,3 +7,6 @@
 [submodule "app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/redis-cluster"]
 	path = app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/redis-cluster
 	url = https://github.com/stackdocker/redis-cluster
+[submodule "app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/docker-nexus3"]
+	path = app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/docker-nexus3
+	url = https://github.com/stackdocker/docker-nexus3
