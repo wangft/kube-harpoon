@@ -34,4 +34,10 @@ _tag_: java, maven, CI/CD, web
 
 ### Clustering
 
-_to be continued_
+* Redis Sentinel
+
+_tag_: Redis, cache, HA
+
+* MySQL Galera
+
+_tag_: MySQL, database, HA
