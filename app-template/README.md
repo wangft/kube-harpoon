@@ -4,7 +4,7 @@ The app-template directory include:
 
 * [Kuberentes resource manifest lab](#kubernetes-resource-manifest-lab)
 
-* Catalog
+Catalog
  
 - [Rancher Catalog](./catalog/lib/github.com/rancher)
 
@@ -43,6 +43,8 @@ _tag_: Redis, cache, HA
 _tag_: MySQL, database, HA
 
 * PingCAP TiDB
+
+[In submodule tidb@...](./k8s-resource-manifest-lab/lib/github.com/tangfeixiong)
 
 _tag_: MySQL Protocol, database, Cloud Native
 
