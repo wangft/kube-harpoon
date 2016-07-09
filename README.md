@@ -15,3 +15,7 @@ The directory includes various open catalog technology, such as [Kubernetes char
 
 ### Multi-tenant Kuberentes cluster
 _TBC_
+
+### SIG (Special Interest Group)
+* [Machine Learning](/sig/machine-learning) - Research deep learning algorithm onto Kubernetes
+

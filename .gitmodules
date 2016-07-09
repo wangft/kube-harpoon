@@ -19,3 +19,6 @@
 [submodule "app-template/catalog/lib/github.com/rancher/community-catalog"]
 	path = app-template/catalog/lib/github.com/rancher/community-catalog
 	url = https://github.com/rancher/community-catalog
+[submodule "sig/machine-learning/lib/github.com/josephmisiti/awesome-machine-learning"]
+	path = sig/machine-learning/lib/github.com/josephmisiti/awesome-machine-learning
+	url = https://github.com/josephmisiti/awesome-machine-learning
