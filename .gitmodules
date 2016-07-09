@@ -25,3 +25,6 @@
 [submodule "sig/golang-containerized/lib/github.com/docker-library/docs"]
 	path = sig/golang-containerized/lib/github.com/docker-library/docs
 	url = https://github.com/docker-library/docs
+[submodule "app-template/k8s-resource-manifest-lab/lib/github.com/tangfeixiong/tidb"]
+	path = app-template/k8s-resource-manifest-lab/lib/github.com/tangfeixiong/tidb
+	url = https://github.com/tangfeixiong/tidb

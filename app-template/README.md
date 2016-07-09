@@ -6,11 +6,11 @@ The app-template directory include:
 
 * Catalog
  
->+ [Rancher Catalog](./catalog/lib/github.com/rancher)
->
->+ [Kube Charts](./catalog/lib/github.com/kubernetes)
->
->+ [Deis Charts](./catalog/lib/github.com/deis)
+- [Rancher Catalog](./catalog/lib/github.com/rancher)
+
+- [Kube Charts](./catalog/lib/github.com/kubernetes)
+
+- [Deis Charts](./catalog/lib/github.com/deis)
 
 ## [Kubernetes resource manifest lab](/app-template/k8s-resource-manifest-lab)
 
@@ -41,6 +41,10 @@ _tag_: Redis, cache, HA
 * MySQL Galera
 
 _tag_: MySQL, database, HA
+
+* PingCAP TiDB
+
+_tag_: MySQL Protocol, database, Cloud Native
 
 ## Develop with Rancher Catalog
 

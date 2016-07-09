@@ -14,3 +14,12 @@ Submoudle
 
 The original *gogs* is https://github.com/gogits/gogs
 
+## Database
+
+### PingCAP TiDB
+
+Submodule: lib/github.com/tangfeixiong/tidb@...
+
+* Note
+
+The original repository is https://github.com/pingcap/tidb
