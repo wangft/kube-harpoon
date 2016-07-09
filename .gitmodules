@@ -22,3 +22,6 @@
 [submodule "sig/machine-learning/lib/github.com/josephmisiti/awesome-machine-learning"]
 	path = sig/machine-learning/lib/github.com/josephmisiti/awesome-machine-learning
 	url = https://github.com/josephmisiti/awesome-machine-learning
+[submodule "sig/golang-containerized/lib/github.com/docker-library/docs"]
+	path = sig/golang-containerized/lib/github.com/docker-library/docs
+	url = https://github.com/docker-library/docs

@@ -17,5 +17,6 @@ The directory includes various open catalog technology, such as [Kubernetes char
 _TBC_
 
 ### SIG (Special Interest Group)
+* [Golang containerized](/sig/golang-containerized) - Golang containerized CI/CD
 * [Machine Learning](/sig/machine-learning) - Research deep learning algorithm onto Kubernetes
 
