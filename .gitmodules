@@ -28,3 +28,6 @@
 [submodule "app-template/k8s-resource-manifest-lab/lib/github.com/tangfeixiong/tidb"]
 	path = app-template/k8s-resource-manifest-lab/lib/github.com/tangfeixiong/tidb
 	url = https://github.com/tangfeixiong/tidb
+[submodule "app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/jenkins-docker"]
+	path = app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/jenkins-docker
+	url = https://github.com/stackdocker/jenkins-docker

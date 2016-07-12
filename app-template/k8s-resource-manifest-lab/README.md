@@ -14,6 +14,14 @@ Submoudle
 
 The original *gogs* is https://github.com/gogits/gogs
 
+### Sonatype nexus
+
+Submodule: lib/github.com/stackdocker/docker-nexus3@...
+
+### Jenkins
+
+Submodule: lib/github.com/stackdocker/jenkins-docker@...
+
 ## Database
 
 ### PingCAP TiDB
