@@ -1,0 +1,33 @@
+<configuration>
+    <property>
+        <name>dfs.namenode.name.dir</name>
+        <value>file:///usr/local/hadoop/data/namenode</value>
+        <description>NameNode directory for namespace and transaction logs storage.</description>
+    </property>
+    <property>
+        <name>dfs.replication</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>dfs.permissions</name>
+        <value>false</value>
+    </property>
+    <property>
+        <name>dfs.datanode.use.datanode.hostname</name>
+        <value>false</value>
+    </property>
+    <property>
+        <name>dfs.namenode.datanode.registration.ip-hostname-check</name>
+        <value>false</value>
+    </property>
+    <property>
+         <name>dfs.namenode.http-address</name>
+         <value>10.64.200.47:50070</value>
+         <description>Your NameNode hostname for http access.</description>
+    </property>
+    <property>
+         <name>dfs.namenode.secondary.http-address</name>
+         <value>10.64.200.47:50090</value>
+         <description>Your Secondary NameNode hostname for http access.</description>
+    </property>
+</configuration>

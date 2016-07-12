@@ -31,3 +31,9 @@ Submodule: lib/github.com/tangfeixiong/tidb@...
 * Note
 
 The original repository is https://github.com/pingcap/tidb
+
+## SaaS
+
+### Hadoop
+
+Service auto-discovery of external Hadoop cluster

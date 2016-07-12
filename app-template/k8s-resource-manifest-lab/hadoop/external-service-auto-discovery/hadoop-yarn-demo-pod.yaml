@@ -1,0 +1,43 @@
+# Maintainer tangfeixiong <fxtang@qingyuanos.com>
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    qingyuanos.io/catalog-by: '{"version": "v1alpha", "lib": "https://github.com/qingyuancloud/kube-harpoon"}'
+  labels:
+    app: hadoop
+    heritage: harpoon
+  name: hadoop-yarn-demo
+spec:
+  containers:
+  - command:
+    - /hadoopyarnapp
+    image: tangfeixiong/hadoopyarnapp
+    imagePullPolicy: IfNotPresent
+    name: hadoop-yarn-demo
+    ports:
+    - containerPort: 8081
+      name: api
+      protocol: TCP
+    volumeMounts:
+    - name: hadoop-config-dir
+      mountPath: /hadoopconfdir
+  restartPolicy: Always
+  volumes:
+  - name: hadoop-config-dir
+    configMap:
+      name: hadoop2-config
+      # items:
+      # - key: core-site.xml
+      #   path: core-site.xml
+      # - key: hdfs-site.xml
+      #   path: hdfs-site.xml
+      # - key: mapred-site.xml
+      #   path: mapred-site.xml
+      # - key: masters
+      #   path: masters
+      # - key: slaves
+      #   path: slaves
+      # - key: yarn-site.xml
+      #   path: yarn-site.xml

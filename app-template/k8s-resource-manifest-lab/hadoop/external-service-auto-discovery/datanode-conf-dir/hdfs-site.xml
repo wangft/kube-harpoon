@@ -1,0 +1,30 @@
+<configuration>
+    <property>
+        <name>dfs.datanode.data.dir</name>
+        <value>file:///usr/local/hadoop/data/datanode</value>
+        <description>DataNode directory</description>
+    </property>
+
+    <property>
+        <name>dfs.replication</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>dfs.permissions</name>
+        <value>false</value>
+    </property>
+    <property>
+        <name>dfs.datanode.use.datanode.hostname</name>
+        <value>false</value>
+    </property>
+    <property>
+         <name>dfs.namenode.http-address</name>
+         <value>10.64.200.47:50070</value>
+         <description>Your NameNode hostname for http access.</description>
+    </property>
+    <property>
+         <name>dfs.namenode.secondary.http-address</name>
+         <value>10.64.200.47:50090</value>
+         <description>Your Secondary NameNode hostname for http access.</description>
+    </property>
+</configuration>

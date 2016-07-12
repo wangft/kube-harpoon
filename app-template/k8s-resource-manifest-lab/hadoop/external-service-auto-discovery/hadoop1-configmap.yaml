@@ -1,0 +1,63 @@
+apiVersion: v1
+data:
+  core-site.xml: |-
+      <configuration>
+          <property>
+              <name>fs.defaultFS</name>
+              <value>hdfs://10.64.200.47/</value>
+              <description>NameNode URI</description>
+          </property>
+      </configuration>
+  hdfs-site.xml: |-
+      <configuration>
+          <property>
+              <name>dfs.namenode.name.dir</name>
+              <value>file:///usr/local/hadoop/data/namenode</value>
+              <description>NameNode directory for namespace and transaction logs storage.</description>
+          </property>
+          <property>
+              <name>dfs.replication</name>
+              <value>3</value>
+          </property>
+          <property>
+              <name>dfs.permissions</name>
+              <value>false</value>
+          </property>
+          <property>
+              <name>dfs.datanode.use.datanode.hostname</name>
+              <value>false</value>
+          </property>
+          <property>
+              <name>dfs.namenode.datanode.registration.ip-hostname-check</name>
+              <value>false</value>
+          </property>
+          <property>
+               <name>dfs.namenode.http-address</name>
+               <value>10.64.200.47:50070</value>
+               <description>Your NameNode hostname for http access.</description>
+          </property>
+          <property>
+               <name>dfs.namenode.secondary.http-address</name>
+               <value>10.64.200.47:50090</value>
+               <description>Your Secondary NameNode hostname for http access.</description>
+          </property>
+      </configuration>
+  mapred-site.xml: |-
+      <configuration>
+          <property>
+              <name>mapred.job.tracker</name>
+              <value>10.64.200.47:54311</value>
+              <description>The host and port that the MapReduce job tracker runs at.  If "local", then jobs are run in-process as a single map and reduce task.</description>
+          </property>
+      </configuration>
+  masters: |-
+      10.64.200.47
+  salves: |-
+      10.64.200.48
+      10.64.200.49
+      10.64.200.50
+      10.64.200.51
+kind: ConfigMap
+metadata:
+  name: hadoop1-config
+  # namespace: helm

@@ -1,0 +1,40 @@
+# Maintainer tangfeixiong <fxtang@qingyuanos.com>
+---
+apiVersion: "v1"
+kind: "Endpoints"
+metadata:
+  annotations:
+    qingyuanos.io/catalog-by: '{"version": "v1alpha", "lib": "https://github.com/qingyuancloud/kube-harpoon"}
+  labels:
+    app: hadoop
+    heritage: qingyuancloud
+  name: external-hadoop2
+subsets: 
+- addresses:
+  - ip: "10.10.1.1"
+  ports:
+  - name: "resman-web"
+    port: 8088
+  - name: "resman-admin"
+    port: 8033
+  - name: "resman"
+    port: 8032
+- addresses:
+  - ip: "10.10.1.2"
+  ports:
+  - name: "namenode-http"
+    port: 50070
+  - name: "namenode"
+    port: 8020
+- addresses:
+  - ip: "10.10.1.3"
+  - ip: "10.10.1.4"
+  - ip: "10.10.1.5"
+  - ip: "10.10.1.6"
+  ports:
+  - name: "datanode-http"
+    port: 50075
+  - name: "datanode-ipc"
+    port: 50020
+  - name: "datanode"
+    port: 50010

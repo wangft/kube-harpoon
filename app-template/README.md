@@ -16,37 +16,43 @@ Catalog
 
 ### CI/CD
 
-* Gogits gogs
+Gogits gogs
 
-_tag_: git, SCM, web
+* _tag_: git, SCM, web
 
-* Sonatype Nexus
+Sonatype Nexus
 
 [codebase](https://github.com/sonatype/nexus-public)
 
-_tag_: java, maven, web
+* _tag_: java, maven, web
 
-_book_: [Repository Management with Nexus](https://books.sonatype.com/nexus-book/3.0/reference/index.html)
+* _book_: [Repository Management with Nexus](https://books.sonatype.com/nexus-book/3.0/reference/index.html)
 
-* Jenkins
+Jenkins
 
-_tag_: java, maven, CI/CD, web
+* _tag_: java, maven, CI/CD, web
 
 ### Clustering
 
-* Redis Sentinel
+Redis Sentinel
 
-_tag_: Redis, cache, HA
+* _tag_: Redis, cache, HA
 
-* MySQL Galera
+MySQL Galera
 
-_tag_: MySQL, database, HA
+* _tag_: MySQL, database, HA
 
-* PingCAP TiDB
+PingCAP TiDB
 
 [In submodule tidb@...](./k8s-resource-manifest-lab/lib/github.com/tangfeixiong)
 
-_tag_: MySQL Protocol, database, Cloud Native
+* _tag_: MySQL Protocol, database, Cloud Native
+
+External service auto-discovery
+
+Hadoop
+
+* _tag_: Big data, Java, SaaS
 
 ## Develop with Rancher Catalog
 
