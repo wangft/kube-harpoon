@@ -31,3 +31,9 @@
 [submodule "app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/jenkins-docker"]
 	path = app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/jenkins-docker
 	url = https://github.com/stackdocker/jenkins-docker
+[submodule "app-template/k8s-resource-manifest-lab/lib/github.com/tangfeixiong/rancher"]
+	path = app-template/k8s-resource-manifest-lab/lib/github.com/tangfeixiong/rancher
+	url = https://github.com/tangfeixiong/rancher
+[submodule "app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/rancher-catalog-service"]
+	path = app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/rancher-catalog-service
+	url = https://github.com/stackdocker/rancher-catalog-service

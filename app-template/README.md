@@ -54,7 +54,13 @@ Hadoop
 
 * _tag_: Big data, Java, SaaS
 
-## Develop with Rancher Catalog
+## Develop with Rancher Provisioner and Catalog
+
+### Deploy into Kubernetes
+
+[In submoudle rancher@...](./k8s-resource-manifest-lab/lib/github.com/tangfeixiong)
+
+[In submoudle rancher-catalog-service@...](./k8s-resource-manifest-lab/lib/github.com/stackdocker)
 
 ### Catalog service
 
