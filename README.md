@@ -11,7 +11,21 @@ The content can be found in [registry](/registry) sub-directory
 _TBC_
 
 ### [Kubernetes application deployment template](/app-template)
-The directory includes various open catalog technology, such as [Kubernetes charts](https://github.com/kubernetes/charts), [Rancher community catalog](https://github.com/rancher/community-catalog), [Openshift template](https://github.com/openshift/origin/tree/master/pkg/template), and [kubernetes application experimental resource](/app-template/k8s-resource-manifest-lab) 
+The directory includes various open catalog technology, such as [Kubernetes charts](https://github.com/kubernetes/charts), [Rancher community catalog](https://github.com/rancher/community-catalog), [Openshift template](https://github.com/openshift/origin/tree/master/pkg/template)
+
+It is also an entry of [kubernetes application experimental resource](/app-template/k8s-resource-manifest-lab) for popular software, such as:
+
+* Redis
+
+* MySQL
+
+* Jenkins
+
+* Etcd
+
+* Hadoop
+
+and so on
 
 ### Multi-tenant Kuberentes cluster
 _TBC_

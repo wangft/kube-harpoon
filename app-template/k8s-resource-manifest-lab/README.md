@@ -37,3 +37,7 @@ The original repository is https://github.com/pingcap/tidb
 ### Hadoop
 
 Service auto-discovery of external Hadoop cluster
+
+### Etcd
+
+Cloud native configuration management

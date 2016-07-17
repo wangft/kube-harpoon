@@ -44,9 +44,15 @@ MySQL Galera
 
 PingCAP TiDB
 
-[In submodule tidb@...](./k8s-resource-manifest-lab/lib/github.com/tangfeixiong)
+* submodule_: k8s-resource-manifest-lab/lib/github.com/tangfeixiong/tidb@.../kubernetes-examples
 
 * _tag_: MySQL Protocol, database, Cloud Native
+
+CoreOS Etcd
+
+* _submoudle_: k8s-resource-manifest-lab/lib/github.com/tangfeixiong/etc@.../hack/kubernetes-qingyuancloud
+
+* _tag_: Cloud Native, Configuration Manager, Raft
 
 External service auto-discovery
 
@@ -58,9 +64,9 @@ Hadoop
 
 ### Deploy into Kubernetes
 
-[In submoudle rancher@...](./k8s-resource-manifest-lab/lib/github.com/tangfeixiong)
+Submoudle: *k8s-resource-manifest-lab/lib/github.com/tangfeixiong/rancher@.../kuberentes-examples*
 
-[In submoudle rancher-catalog-service@...](./k8s-resource-manifest-lab/lib/github.com/stackdocker)
+Submoudle: *k8s-resource-manifest-lab/lib/github.com/stackdocker/rancher-catalog-service@.../kubernetes-examples*
 
 ### Catalog service
 

@@ -37,3 +37,6 @@
 [submodule "app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/rancher-catalog-service"]
 	path = app-template/k8s-resource-manifest-lab/lib/github.com/stackdocker/rancher-catalog-service
 	url = https://github.com/stackdocker/rancher-catalog-service
+[submodule "app-template/k8s-resource-manifest-lab/lib/github.com/tangfeixiong/etcd"]
+	path = app-template/k8s-resource-manifest-lab/lib/github.com/tangfeixiong/etcd
+	url = https://github.com/tangfeixiong/etcd
