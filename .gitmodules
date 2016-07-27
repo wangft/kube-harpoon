@@ -40,3 +40,6 @@
 [submodule "app-template/k8s-resource-manifest-lab/lib/github.com/tangfeixiong/etcd"]
 	path = app-template/k8s-resource-manifest-lab/lib/github.com/tangfeixiong/etcd
 	url = https://github.com/tangfeixiong/etcd
+[submodule "app-template/k8s-resource-manifest-lab/lib/github.com/tangfeixiong/pd"]
+	path = app-template/k8s-resource-manifest-lab/lib/github.com/tangfeixiong/pd
+	url = https://github.com/tangfeixiong/pd

@@ -34,6 +34,13 @@ Jenkins
 
 ### Clustering
 
+PingCAP TiDB, PD & TiKV ( in progress )
+
+* submodule_: k8s-resource-manifest-lab/lib/github.com/tangfeixiong/tidb@.../kubernetes-examples
+* submodule_: k8s-resource-manifest-lab/lib/github.com/tangfeixiong/pd@.../kubernetes
+
+* _tag_: MySQL Protocol, database, Cloud Native
+
 Redis Sentinel
 
 * _tag_: Redis, cache, HA
@@ -41,12 +48,6 @@ Redis Sentinel
 MySQL Galera
 
 * _tag_: MySQL, database, HA
-
-PingCAP TiDB
-
-* submodule_: k8s-resource-manifest-lab/lib/github.com/tangfeixiong/tidb@.../kubernetes-examples
-
-* _tag_: MySQL Protocol, database, Cloud Native
 
 CoreOS Etcd
 

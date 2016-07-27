@@ -15,6 +15,8 @@ The directory includes various open catalog technology, such as [Kubernetes char
 
 It is also an entry of [kubernetes application experimental resource](/app-template/k8s-resource-manifest-lab) for popular software, such as:
 
+* PingCAP TiDB , PD & TiKV
+
 * Redis
 
 * MySQL
@@ -25,7 +27,7 @@ It is also an entry of [kubernetes application experimental resource](/app-templ
 
 * Hadoop
 
-and so on
+and Docker images for leagcy OS, such as CentOS 4,5, JDK 1.5, Ubuntu precise, lucid ...
 
 ### Multi-tenant Kuberentes cluster
 _TBC_

@@ -22,15 +22,24 @@ Submodule: lib/github.com/stackdocker/docker-nexus3@...
 
 Submodule: lib/github.com/stackdocker/jenkins-docker@...
 
-## Database
+## Cloud native data store
 
-### PingCAP TiDB
+### PingCAP TiDB, PD & TiKV ( still in progress )
 
 Submodule: lib/github.com/tangfeixiong/tidb@...
+Submodule: lib/github.com/tangfeixiong/pd@...
 
 * Note
 
-The original repository is https://github.com/pingcap/tidb
+The original repository is https://github.com/pingcap/tidb , https://github.com/pingcap/pd , https://github.com/pingcap/tikv
+
+### Etcd
+
+Cloud native configuration management v3
+
+* Note
+
+The original repository is https://github.com/coreos/etcd
 
 ## SaaS
 
@@ -38,6 +47,3 @@ The original repository is https://github.com/pingcap/tidb
 
 Service auto-discovery of external Hadoop cluster
 
-### Etcd
-
-Cloud native configuration management
