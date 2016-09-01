@@ -1,0 +1,87 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: gitlab
+  labels:
+    app: gitlab
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: gitlab
+    spec:
+      nodeName: 192.168.1.21
+      hostNetwork: true
+      containers:
+      - name: redisio
+        ports:
+        - containerPort: 6379
+        image: hub.qingyuanos.com/admin/redis
+        volumeMounts:
+        - mountPath: /var/lib/redis
+          name: redis
+        imagePullPolicy: Always
+      - name: postgresql
+        ports:
+        - containerPort: 5432
+        image: hub.qingyuanos.com/admin/postgresql:9.5-1
+        env:
+        - name: DB_NAME
+          value: gitlabhq_production
+        - name: DB_USER
+          value: gitlab
+        - name: DB_PASS
+          value: password
+        - name: DB_EXTENSION
+          value: pg_trgm
+        volumeMounts:
+        - mountPath: /var/lib/postgresql
+          name: postgre
+        imagePullPolicy: Always
+      - name: gitlab-production
+        image: hub.qingyuanos.com/admin/gitlab:latest
+        env:
+        - name: GITLAB_HOST
+          value: localhost
+        - name: GITLAB_PORT
+          value: "80"
+        - name: GITLAB_SSH_PORT
+          value: "22"
+        - name: GITLAB_SECRETS_DB_KEY_BASE
+          value: MF3wksrhqkJszWPTL3hsxqjW4fdFPwbstdNhWNqhRqxvj7FhRdzrR3xV9Rdq3pJV
+        - name: GITLAB_SECRETS_SECRET_KEY_BASE
+          value: MF3wksrhqkJszWPTL3hsxqjW4fdFPwbstdNhWNqhRqxvj7FhRdzrR3xV9Rdq3pJV
+        - name: GITLAB_SECRETS_OTP_KEY_BASE
+          value: MF3wksrhqkJszWPTL3hsxqjW4fdFPwbstdNhWNqhRqxvj7FhRdzrR3xV9Rdq3pJV
+        - name: DB_ADAPTER
+          value: postgresql
+        - name: DB_HOST
+          value: localhost
+        - name: DB_PORT
+          value: "5432"
+        - name: DB_USER
+          value: gitlab
+        - name: DB_PASS
+          value: password
+        - name: DB_NAME
+          value: gitlabhq_production
+        - name: REDIS_HOST
+          value: localhost
+        - name: REDIS_PORT
+          value: "6379"
+        volumeMounts:
+        - mountPath: /home/git/data
+          name: gitlabdata
+        imagePullPolicy: Always
+      volumes:
+      - name: gitlabdata
+        hostPath:
+          path: /srv/docker/gitlab/gitlab
+      - name: postgre
+        hostPath:
+          path: /srv/docker/gitlab/postgresql
+      - name: redis
+        hostPath:
+          path: /srv/docker/gitlab/redis
+      restartPolicy: Always
